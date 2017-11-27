@@ -1,12 +1,7 @@
-#logo 
-{
-    width: 400px;
-    height: 120px;
-    /*border: 2px solid black;*/
-    margin: 15px 0px 15px 100px;
-    float: left;
-}
+/*-------------------------------------------------GENERAL--------------------------------------------------*/
 
+
+/*-------------------------------------------------HEADERS--------------------------------------------------*/
 #main-title
 {
     font-family: "Spectral SC", serif, sans-serif;
@@ -17,8 +12,92 @@
     text-align: center;
 }
 
+#logo 
+{
+    width: 400px;
+    height: 120px;
+    margin: 15px 0px 15px 100px;
+    float: left;
+}
+
 header 
 {
     height: 150px;
-    background: #4D4D4D;
+    background: #7f8c8d;
+}
+
+header div a
+{
+    color: black;
+    text-decoration: none;
+}
+
+header div a:hover
+{
+    color: black;
+    text-decoration: none;
+}
+
+#b-header
+{
+    height: 40px;
+    background: #bdc3c7;
+}
+
+#b-header ul li 
+{
+    list-style: none;
+    float: left;
+    display: inline-block;
+}
+
+#categories 
+{
+    height: 40px;
+    background: #bdc3c7;
+}
+
+#categories ul
+{
+    display: inline-block;
+    list-style: none;
+}
+
+#b-header ul li 
+{
+    list-style: none;
+    float: left;
+    display: inline-block;
+}
+
+/*--------------------------------------------------FOOTER---------------------------------------------------*/
+
+footer 
+{
+    height: 150px;
+    background: #2c3e50;
+}
+
+footer ul 
+{
+    text-align: center;
+    list-style: none;
+    color: black;
+}
+
+footer ul a 
+{
+    color: black;
+}
+
+footer ul a:hover 
+{
+    color: black;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------ARTICLE-CONTAINER---------------------------------------------------*/
+#article-container 
+{
+    height: 1000px;
 }
